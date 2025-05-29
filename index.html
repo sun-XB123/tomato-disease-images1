@@ -2,9 +2,24 @@
 <html>
 <head>
     <title>番茄病害数据集</title>
+    <!-- 添加基础样式（可选） -->
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        a { color: #1a73e8; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
 </head>
 <body>
     <h1>欢迎访问番茄病害图像库</h1>
-    <p><a href="/dataset/">点击查看数据集</a></p>
+    <p>
+        <!-- 关键修改：使用包含仓库名的绝对路径 -->
+        <a href="/tomato-disease-images1/dataset/">点击查看数据集</a>
+    </p>
+    
+    <!-- 扩展功能：直接显示部分图片缩略图（可选） -->
+    <div>
+        <h3>示例图片：</h3>
+        <img src="/tomato-disease-images1/dataset/番茄二班叶螨-1.png" width="200" alt="番茄二班叶螨示例">
+    </div>
 </body>
 </html>
